@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>HTML FORMS</h1>
+
+    <form>
+
+        <strong><label for="username">Enter Username:</label></strong>
+        <input type="text" id="username" name="username" placeholder="Your Name" required>
+
+        <br><br>
+
+        <strong><label for="email">Enter Email:</label></strong>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <br><br>
+
+        <strong><label for="password">Enter Password:</label></strong>
+        <input type="password" id="password" name="password" placeholder="Your Password" required>
+
+        <h2>Select Your Age</h2>
+
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+
+        <br><br>
+
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-2">26-50</label>
+
+        <br><br>
+
+        <input type="radio" name="age" value="51+" id="option-3">
+        <label for="option-3">51+</label>
+
+        <br><br>
+
+        <label for="questions">Security Question:</label>
+
+        <select id="questions" name="questions">
+            <option value="q1">What is the first language you learned?</option>
+            <option value="q2">Which country are you in?</option>
+            <option value="q3">What makes you happiest?</option>
+        </select>
+
+        <br><br>
+
+        <strong><label for="answer">Security Question Answer:</label></strong>
+        <input type="text" id="answer" name="answer" placeholder="Answer">
+
+        <br><br>
+
+        <h2>Your Bio</h2>
+
+        <textarea id="bio" name="bio" cols="30" rows="10" placeholder="About You"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit Form">
+
+    </form>
+
+</body>
+</html>
