@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: darkblue;
+    background-color: white;
+    text-align: center;
+}
+
+form{
+    background-color: beige;
+}
+
+label{
+    color: darkred;
+    font-size: 22px;
+    font-style: normal;
+}
+
+h2{
+    color: darkgreen;
+}
+
+input{
+    background-color: white;
+}
+
+select{
+    background-color: white;
+}
+
+textarea{
+    background-color: white;
+}
