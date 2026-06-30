@@ -1,0 +1,68 @@
+/* .error{
+    color: red;
+} */
+
+/* p.error{
+    color: red;
+}
+p.success{
+    color: green;
+}
+p.success.feedback{
+    color: gold;
+    border: 2px dashed black;
+}
+div#learner{
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+
+/* div p{
+    color: purple;
+} */
+
+/* div .error{
+    color: red;
+} */
+
+/* a[href="https://github.com/prathameshsh21-art"]{
+    background-color: green;
+    color: white;
+    text-decoration: dashed;
+    text-transform: uppercase;
+    border: 2px dotted red;
+} */
+
+/* a[href*="prathameshsh21-art"]{
+    background-color: green;
+    color: white;
+    text-decoration: dashed;
+    text-transform: uppercase;
+    border: 2px dotted red;
+} */
+
+/* a[href*="google"]{
+    background-color: red;
+    color: aliceblue;
+    text-transform: capitalize;
+    border: 3px dashed greenyellow;
+}
+
+a[href$="art"]{
+    color: white;
+    background-color: darkolivegreen;
+    border: 3px solid forestgreen;
+} */
+
+div{
+    color: lightcoral;
+    border: 4px solid brown;
+    margin: 40px;
+    font-weight: bold;
+}
+
+p{
+    border: inherit;
+    margin: inherit;
+    color: blue;
+}
